@@ -8,6 +8,7 @@
 *.bin
 /release/
 application/statics/assets.zip
+sandroid-drive
 master_v4
 slave_v4
 __debug*

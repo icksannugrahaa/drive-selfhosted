@@ -338,7 +338,7 @@ func migrateOAuthClientDesktop(l logging.Logger, client *ent.Client, ctx context
 		SetName(OAuthClientDesktopName).
 		SetRedirectUris([]string{OAuthClientDesktopRedirectURI}).
 		SetScopes([]string{"profile", "email", "openid", "offline_access", "UserInfo.Write", "Workflow.Write", "Files.Write", "Shares.Write"}).
-		SetProps(&types.OAuthClientProps{Icon: "/static/img/cloudreve.svg", RefreshTokenTTL: 7776000}).
+		SetProps(&types.OAuthClientProps{Icon: "/static/img/logo.svg", RefreshTokenTTL: 7776000}).
 		SetIsEnabled(true).
 		Save(ctx); err != nil {
 		return fmt.Errorf("failed to create default OAuth client: %w", err)
