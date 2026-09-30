@@ -20,10 +20,10 @@ func init() {
 }
 
 var rootCmd = &cobra.Command{
-	Use:   "cloudreve",
-	Short: "Cloudreve is a server-side self-hosted cloud storage platform",
+	Use:   "sandroid-drive",
+	Short: "Sandroid Drive is a server-side self-hosted cloud storage platform",
 	Long: `Self-hosted file management and sharing system, supports multiple storage providers.
-Complete documentation is available at https://docs.cloudreve.org/`,
+Complete documentation is available at https://drive.sandroid.works/`,
 	Run: func(cmd *cobra.Command, args []string) {
 		// Do Stuff Here
 	},
